@@ -1,5 +1,5 @@
 def main():
-    print("Hello World")
+    print('Hello CSE 1321 Section 51')
 
 if __name__ == "__main__":
     main()
