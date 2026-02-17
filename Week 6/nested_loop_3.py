@@ -26,5 +26,16 @@ def main():
             print(y, end="")
         print("")
 
+    print()
+
+    # Square
+    counter = 0
+    for y in range(5): # Range 0, 1, 2, 3, 4
+        # We build the row (horizontal line)
+        for x in range(5):
+            print(counter, end="")
+            counter += 1
+        print("")
+
 if __name__ == "__main__":
     main()
