@@ -24,6 +24,7 @@ def main():
         # Keep prompting the user for an answer until 
         # the user enters a valid value: 'Y' or 'N'
         while True:
+            # SENTINEL VALUE: 'Y' to continue and 'N' to stop
             restart = input("Do you want to perform another calculation (Y/N): ")
 
             if restart != "Y" and restart != "N":
