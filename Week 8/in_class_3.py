@@ -1,5 +1,6 @@
 # Create a function that takes in a temperature value in Fahrenheit 
 # which then converts it to celsius and returns it.
+# c = 5/9 * (f - 32)
 def f_to_c():
     pass
 
