@@ -4,6 +4,9 @@
 #
 # Example:
 #   [4, 3, 10, 1], the function should return 1
+# Suggestions:
+# Instead of returning the lowest number, you can remove the lowest number from the list
+# then return the list.
 def lowest(nums):
     lowest_number = nums[0]
 
@@ -41,13 +44,42 @@ def main():
     quizzes = [80, 70, 90, 100, 60, 76, 81, 100, 80, 85]
     tests = [70, 80]
     final_exam = 95
-    print(lowest(quizzes))
-    print(replace(tests, final_exam))
+    # print(lowest(quizzes))
+    # print(replace(tests, final_exam))
 
-    # Assuming Quizzes are 25%, and each test also 25%, and the final exam 25%
+    # Assuming Quizzes are 25%, each test also 25%, and the final exam 25%
     # Calculate the final grade for the student.
     # Hint: You can use the len() function to figure out the number of items in a sequence
     # Example: print(len(quizzes)) => prints `10`
+    lowest_grade = lowest(quizzes)
+
+    quiz_sum = 0
+
+    for quiz_grade in quizzes:
+        quiz_sum += quiz_grade
+    
+    quiz_sum -= lowest_grade
+
+    quiz_average = quiz_sum / (len(quizzes) - 1)
+
+    quiz_grade = quiz_average * .25
+
+    print(f"Quiz Grade: {quiz_grade}")
+
+    tests = replace(tests, final_exam)
+
+    test_average = (tests[0] + tests[1]) / 2
+
+    test_grade = test_average * 0.5
+    print(f"Tests Grade: {test_grade}")
+
+    final_exam_grade = final_exam * 0.25
+    print(f"Final Exam Grade: {final_exam_grade}")
+    
+    final_grade = quiz_grade + test_grade + final_exam_grade
+    print(f"Final Grade: {final_grade}")
+
+
 
 if __name__ == "__main__":
     main()
