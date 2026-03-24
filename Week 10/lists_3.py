@@ -1,5 +1,6 @@
 def main():
     states = ["Georgia", "Florida", "Alabama"]
+    print(states)
 
     if "Georgia" in states:
         print("We have Georgia in our list")
