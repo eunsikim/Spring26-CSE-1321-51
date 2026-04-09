@@ -1,3 +1,5 @@
+# This function takes in a list
+# and returns a number which the average of that list
 def average(grades):
     sum_grades = 0
 
