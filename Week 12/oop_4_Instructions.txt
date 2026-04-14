@@ -1,0 +1,41 @@
+1. Create a class called `student`,
+the class will have these attributes:
+- name (string)
+- assignments (list)
+- labs (list)
+- exams (list)
+
+All of these attributes should be passed as parameters when constructing.
+
+2. Create a function called `get_final_grade()`. This function does 
+not take any parameters and returns the final grade of the student:
+- Lab avg. 10%
+- Assignment avg. 40%
+- Midterm Exam 20%
+- Final Exam 30%
+
+3. In the main method, create a list and append 4 student objects. 
+Then print the final grade of each student in the list.
+
+
+Sample Data:
+Name: Alice
+Assignments: 11, 78, 49, 36, 40, 24, 2, 1, 87, 60, 91, 17, 26
+Lab: 85, 49, 79, 43, 87, 90, 45
+Exams: 57, 18
+
+Name: Bob
+Assignments: 45, 34, 73, 8, 79, 14, 38, 67, 99, 60, 84, 86, 43
+Labs: 16, 77, 32, 64, 26, 62, 9
+Exams: 81, 45
+
+Name: Charlie
+Assignments: 100, 38, 92, 15, 11, 86, 68, 45, 91, 26, 64, 47, 32
+Labs: 45, 68, 34, 97, 80, 12, 74
+Exams: 11, 47
+
+Name: Dave
+Assignments: 4, 15, 37, 90, 35, 75, 33, 6, 99, 43, 8, 5, 29
+Labs: 72, 81, 84, 20, 87, 3, 58
+Exams: 93, 66
+

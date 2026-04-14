@@ -1,0 +1,38 @@
+The implementation of `oop_4.py` works very well if I only had a single lab section.
+
+Let's expand the context of the code and lets assume that I am assigned multiple
+sections in a semester. Each section will have a unique list of students
+(assuming all of the sections are the same course like CSE 1321L).
+
+The student object stay the same, but we need to add another component/class
+called `section`. This class will represent a singular section and will be composed
+of two attributes: a list of students and the name of the section (like "W02" or "51").
+
+1. Expand `oop_4.py` and add a another class called `section`.
+Define the attributes mentioned above in the constructor.
+
+2. Define in `section` two functions. One function should calculate and return the class average grade and the other function should print the final grade of each student.
+
+3. In the main method, create a list with two sections. Populate the sections with students and print the class average and the final grade of each student registered in both sections.
+
+Sample Data for Section "05":
+Name: Alice
+Assignments: 11, 78, 49, 36, 40, 24, 2, 1, 87, 60, 91, 17, 26
+Lab: 85, 49, 79, 43, 87, 90, 45
+Exams: 57, 18
+
+Name: Bob
+Assignments: 45, 34, 73, 8, 79, 14, 38, 67, 99, 60, 84, 86, 43
+Labs: 16, 77, 32, 64, 26, 62, 9
+Exams: 81, 45
+
+Sample Data for Section "51":
+Name: Charlie
+Assignments: 100, 38, 92, 15, 11, 86, 68, 45, 91, 26, 64, 47, 32
+Labs: 45, 68, 34, 97, 80, 12, 74
+Exams: 11, 47
+
+Name: Dave
+Assignments: 4, 15, 37, 90, 35, 75, 33, 6, 99, 43, 8, 5, 29
+Labs: 72, 81, 84, 20, 87, 3, 58
+Exams: 93, 66
