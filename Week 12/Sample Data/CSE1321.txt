@@ -1,0 +1,47 @@
+Alice
+Quiz: 94, 98, 80, 83, 84, 75, 72, 70, 75, 77, 
+Test 1: 64
+Test 2: 91
+Final Exam: 67
+
+Bob
+Quiz: 94, 63, 81, 67, 60, 78, 68, 76, 90, 65, 
+Test 1: 85
+Test 2: 78
+Final Exam: 70
+
+Charlie
+Quiz: 71, 85, 90, 81, 99, 88, 97, 80, 78, 87, 
+Test 1: 68
+Test 2: 79
+Final Exam: 68
+
+Dave
+Quiz: 80, 95, 62, 60, 96, 80, 85, 83, 82, 100, 
+Test 1: 75
+Test 2: 77
+Final Exam: 85
+
+Eve
+Quiz: 92, 86, 94, 83, 64, 85, 78, 78, 70, 86, 
+Test 1: 70
+Test 2: 75
+Final Exam: 62
+
+Frank
+Quiz: 61, 65, 83, 74, 73, 87, 87, 80, 91, 72, 
+Test 1: 93
+Test 2: 89
+Final Exam: 92
+
+Grace
+Quiz: 86, 96, 64, 69, 67, 69, 89, 90, 62, 91, 
+Test 1: 89
+Test 2: 93
+Final Exam: 68
+
+Heidi
+Quiz: 97, 80, 78, 68, 90, 100, 99, 64, 91, 75, 
+Test 1: 96
+Test 2: 90
+Final Exam: 80

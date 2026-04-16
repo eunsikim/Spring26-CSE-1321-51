@@ -51,6 +51,7 @@ class student:
         self.assignments = assignments
         self.labs = labs
         self.exams = exams
+        self.quizzes = ""
     
     def get_final_grade(self):
         lab_avg = 0
